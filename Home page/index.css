@@ -28,7 +28,7 @@
 .bottom{
     height: 30px;
     width: 30px;
-    background-image: url("/JYOTI.png");
+    background-image: url("/Home\ page/perfewm.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 50px;
@@ -39,7 +39,6 @@
     font-size: 20px;
     color: white;
     margin-left: 5px;
-
 }
 .pra2{
     font-size: 20px;
@@ -52,6 +51,9 @@
     margin-right: 5px;
     border-radius: 10px;
     border: none;
+}
+a{
+    text-decoration: none;
 }
 .container2{
     height: 90%;
@@ -84,7 +86,7 @@
     height: 97%;
     width: 22%;
     margin:5px;
-    background-image: url("/perfewm.jpg");
+    background-image: url("/Home\ page/perfewm 2.jpg");
     background-size: cover;
     background-position: center;
    
@@ -93,7 +95,7 @@
     height: 97%;
     width: 22%;
     margin: 5px;
-    background-image: url("/perfewm\ 2.jpg");
+    background-image: url("/Home\ page/perfewm.jpg");
     background-size: cover;
     background-position: center;
 
@@ -102,7 +104,8 @@
     height: 97%;
     width: 22%;
     margin: 5px;
-    background-image: url("/perfewm3.jpg");
+    background-image: url("/Home\ page/perfewm3.jpg");
+    /* background-image: url("/perfewm3.jpg"); */
     background-size: cover;
     background-position: center;
 }
@@ -166,14 +169,16 @@ ul li{
     .sidebar{
         display: none;
     }
+    
+
     .container3{
         width: 100%;
     }
     .box2{
-        height: 33%;
+        height: 40%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
         
     }
     .product-image1{
@@ -183,10 +188,13 @@ ul li{
     }
     
     .pra1{
-        display: none;
+        font-size: 18px;
+    
     }
     .container1{
         justify-content: flex-end;
+        display: flex;
+        gap: 10px;
     }
     .btn1{
         width: 100px;
